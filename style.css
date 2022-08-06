@@ -30,7 +30,7 @@ a{
   
 }
 .hero h2, .hero p{
-    color: #333;
+    color: rgb(66, 66, 66);
 }
 .hero p{
     font-size: 18px;
@@ -101,6 +101,7 @@ width: 100%;
 .head{
 text-align: center;
 margin-bottom: 5rem;
+margin-top: 5rem;
 }
 .heading{
     color: #e7332b;
@@ -120,21 +121,24 @@ margin-bottom: 5rem;
     display: flex;
 }
 .card{
-    width: 422px;
-    margin: 0 1rem;
-    background: #fffafa;
     
-    padding: 61px 31px;
+    margin: 2rem 0;
+    width: 422px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background: #f8e7e7;
+    outline: none;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
 }
-.card img{
-    margin-top: 3rem;
-}
+
 .content{
     margin-top: 3rem;
-    color: #343440;
-    letter-spacing: 1;
-    padding: 0 1rem;
+    color: rgb(66, 66, 66);
     font-size: 18px;
+text-align: center;
+padding: 0 1rem;
 }
 .content h3{
 margin-top: 2rem;
@@ -143,4 +147,54 @@ margin-top: 2rem;
     text-decoration: none;
     color: #e7332b;
     font-size: 17px;
+}
+@media screen and (max-width:966px){
+    .cards{
+        display: flex;
+      flex-direction: column;
+    }
+}
+.footer{
+    width: 100%;
+    margin-top: 7rem;
+    padding-top: 5rem;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 2rem;
+}
+.footer a{
+    text-decoration: none;
+    color: #e7332b;
+}
+.line{
+    padding-bottom: 3rem;
+}
+.contact-icons img{
+    width: 23px;
+}
+.copyright{
+    margin-bottom: 8rem;
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+}
+.address h3, .flex-3 h3, .flex-5 h3{
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+    font-size: 18px;
+}
+.address p{
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+}
+@media screen and(max-width:768px){
+    .footer-container{
+      margin: none;
+      text-align: center;
+    }
 }
