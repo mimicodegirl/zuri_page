@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100%;
+    background: url(assets/hero-bg.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    margin-top: 5rem;
+}
+.hero{
+  
+  text-align: center;
+  width: 60%;
+  max-width: 968px;
+  margin-top: 8rem;
+  
+}
+.hero h2, .hero p{
+    color: #333;
+}
+.hero p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero h2{
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 3rem;
+    font-size: 38px;
+}
+.hero a{
+    color: #e7332b;
+    text-decoration: none;
+}
+.hero button{
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0.5rem;
+    
+}
+.btn-red{
+    color: #fff;
+    background: #e7332b;
+    margin-right: 0.8rem;
+    border: 1px solid #e7332b;
+}
+.btn-outline{
+    background: #fff;
+    color: #e7332b;
+    border: 1px solid #e7332b;
+    gap: 10;
+  
+}
+.btn-div{
+    width: 100%;
+    margin-top: 4rem;
+}
+@media screen and (max-width:768px){
+    .hero {
+width: 100%;
+    }
+    .logo{
+        margin-top: 7rem;
+    }
+    .hero h2{
+        margin-bottom: 3rem;
+    }
+    .hero p{
+        margin-bottom: 5rem;
+        margin: 0 0.3rem;
+    }
+    .btn-div{
+        width: 100%;
+    }
+    .btn-red{
+        margin-bottom: 0;
+    }
+
+}
+
+.layout{
+background: #fffafa;
+
+}
+.layout .head{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+.head{
+    text-align: center;
+}
+.heading{
+    color: #e7332b;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+.slogan{
+    letter-spacing: 0.7;
+    font-size: 25px;
+    color: #333;
+}
+
+.container{
+text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+width: 100%;
+height: 100vh;
+align-items: center;
+}
+.text{
+    width: 422px;
+    height: 688px;
+    background: #fffafa;
+
+}
